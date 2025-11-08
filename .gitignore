@@ -1,0 +1,55 @@
+# === OS / Editor junk ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+.idea/
+.vscode/
+
+# === Logs / temporary ===
+*.log
+logs/
+*.pid
+*.out
+
+# === Env / Secrets ===
+.env
+.env.*
+*/.env
+
+# === Backend (Go) ===
+backend/bin/
+backend/vendor/
+backend/*.exe
+backend/*.dll
+backend/*.so
+backend/*.test
+backend/*.out
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+backend/go.work
+backend/go.work.sum
+
+# === Frontend (Node / React / Vite / Next) ===
+frontend/node_modules/
+frontend/.vite/
+frontend/.next/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+frontend/coverage/
+frontend/.parcel-cache/
+frontend/.turbo/
+
+# Optional lockfiles (keep one if you prefer)
+# frontend/yarn.lock
+# frontend/package-lock.json
+
+# === Docker ===
+docker-compose.override.yml
+**/.docker/
+**/docker-data/
